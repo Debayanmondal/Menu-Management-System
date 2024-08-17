@@ -1,0 +1,18 @@
+{
+  "name": "menu-management",
+  "version": "1.0.0",
+  "description": "This project is a Node.js backend server designed to manage a hierarchical menu system. The menu is divided into three levels: Categories, Subcategories, and Items. Each level has specific attributes and relationships, and the server provides full CRUD operations for each. The API can be tested using Postman.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Debayan Mondal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3"
+  }
+}
